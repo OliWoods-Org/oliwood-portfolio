@@ -1,0 +1,57 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- No background - transparent -->
+
+  <!-- Triple shadow -->
+  <defs>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="9" stdDeviation="9" flood-opacity="0.28"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.45"/>
+      <feDropShadow dx="0" dy="1.2" stdDeviation="1.2" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <!-- Chevron: TOP (light) -->
+  <path
+    d="M100 150 L210 256"
+    stroke="#ffffff"
+    stroke-width="70"
+    stroke-linecap="round"
+    opacity="0.55"
+    filter="url(#shadow)"
+  />
+
+  <!-- Chevron: BOTTOM (dark) -->
+  <path
+    d="M100 362 L210 256"
+    stroke="#ffffff"
+    stroke-width="70"
+    stroke-linecap="round"
+    opacity="0.9"
+    filter="url(#shadow)"
+  />
+
+  <!-- Command lines - thicker -->
+  <line x1="250" y1="175" x2="430" y2="175"
+        stroke="#ffffff" stroke-width="60"
+        stroke-linecap="round" filter="url(#shadow)"/>
+
+  <line x1="250" y1="256" x2="400" y2="256"
+        stroke="#ffffff" stroke-width="60"
+        stroke-linecap="round" filter="url(#shadow)"/>
+
+  <line x1="250" y1="337" x2="450" y2="337"
+        stroke="#ffffff" stroke-width="60"
+        stroke-linecap="round" filter="url(#shadow)"/>
+
+  <!-- Typing cursor - moved down to bottom -->
+  <rect
+    x="250"
+    y="395"
+    width="180"
+    height="55"
+    rx="14"
+    fill="#ffffff"
+    opacity="0.6"
+    filter="url(#shadow)"
+  />
+</svg>

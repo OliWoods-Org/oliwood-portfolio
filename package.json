@@ -1,0 +1,11 @@
+{
+  "name": "oliwood-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/check-portfolio.mjs",
+    "test:links": "node scripts/check-portfolio.mjs --check-external",
+    "deploy": "netlify deploy --prod --dir ."
+  }
+}
