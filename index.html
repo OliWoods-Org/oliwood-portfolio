@@ -510,6 +510,33 @@
         </div>
       </div>
 
+      <!-- ZEUS GROWTH OS -->
+      <div class="card" data-t="beta dev" onclick="openProduct('zeus')" style="cursor:pointer;order:2.5">
+        <div class="ch">
+          <div class="lw" style="background:#0a1214">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%">
+              <rect width="48" height="48" fill="#0a1214"/>
+              <path d="M24 8 L32 24 L24 40 L16 24 Z" fill="none" stroke="#72b8b8" stroke-width="1.2"/>
+              <circle cx="24" cy="24" r="3" fill="#b8a478"/>
+            </svg>
+          </div>
+          <span class="badge b-beta">Beta</span>
+        </div>
+        <div class="preview-wrap"><img src="screenshots/zeus-mission-control.png" alt="Zeus Growth OS Mission Control" loading="lazy" /></div>
+        <div class="cn">Zeus Growth OS</div><div class="cc">Mission Control · Listen · Publish · Pipeline</div>
+        <div class="cd">Unified growth marketing dashboard: social listening, multi-channel publishing, and high-volume outbound in one dark-luxury Mission Control. Intelligence routes into execution—Airtable is the data plane; Claude Code plugin is the execution layer.</div>
+        <div class="usps">
+          <div class="usp"><div class="ud"></div>One surface for listen, target, publish, and pipeline (mock telemetry → Airtable per schema docs)</div>
+          <div class="usp"><div class="ud"></div>PPC (TNT) agents, Growth pulse, Brand kit, Affiliates, Briefings brain stubs</div>
+          <div class="usp"><div class="ud"></div>Tiered social listen + Growth Brain suggestions (approval-gated in product spec)</div>
+          <div class="usp"><div class="ud"></div>Repo: <code style="font-size:.68rem;word-break:break-all">OliWoods-Org/zues-outreach</code> (Zeus Web in <code style="font-size:.68rem">apps/zeus-web</code>)</div>
+        </div>
+        <div class="cf">
+          <div class="ur"><span class="ul prod">Live (Netlify)</span><a class="ua" href="https://zeus-growth-os.netlify.app" target="_blank">zeus-growth-os.netlify.app</a></div>
+          <div class="ur"><span class="ul stag">GitHub</span><a class="ua" href="https://github.com/OliWoods-Org/zues-outreach" target="_blank">OliWoods-Org/zues-outreach</a></div>
+        </div>
+      </div>
+
       <!-- COFOUNDER -->
       <div class="card" data-t="dev" onclick="openProduct('cofounder')" style="cursor:pointer;order:3">
         <div class="ch">
@@ -1318,6 +1345,7 @@
         <tr><td><strong>Siren AI</strong></td><td><span class="int-status int-live">Live</span></td><td><a href="https://siren-ai-voice-sales.netlify.app" target="_blank">siren-ai-voice-sales.netlify.app</a></td><td><a href="https://siren-ai-salesteam.netlify.app" target="_blank">siren-ai-salesteam.netlify.app</a></td><td><a href="https://github.com/OliWoods-Org/siren" target="_blank">OliWoods-Org/siren</a></td><td>siren-ai-voice-sales, siren-ai-salesteam</td><td><code class="pw-code" onclick="copy('2&Zj*!0XXY6CR%SPxxDcQk6m',this)">••••••••</code></td></tr>
         <tr><td><strong>Elevar Health</strong></td><td><span class="int-status int-ios">iOS</span></td><td><a href="https://elevarhealth.ai" target="_blank">elevarhealth.ai</a></td><td>App Store (pending)</td><td><a href="https://github.com/OliWoods-Org/elevar" target="_blank">OliWoods-Org/elevar</a></td><td>—</td><td><code class="pw-code" onclick="copy('2&Zj*!0XXY6CR%SPxxDcQk6m',this)">••••••••</code></td></tr>
         <tr><td><strong>CoFounder</strong></td><td><span class="int-status int-dev">In Dev</span></td><td><a href="https://cofounder.software" target="_blank">cofounder.software</a></td><td>—</td><td><a href="https://github.com/OliWoods-Org/CoFounder" target="_blank">OliWoods-Org/CoFounder</a></td><td>—</td><td><code class="pw-code" onclick="copy('2&Zj*!0XXY6CR%SPxxDcQk6m',this)">••••••••</code></td></tr>
+        <tr><td><strong>Zeus Growth OS</strong></td><td><span class="int-status int-beta">Beta</span></td><td><a href="https://zeus-growth-os.netlify.app" target="_blank">zeus-growth-os.netlify.app</a></td><td>—</td><td><a href="https://github.com/OliWoods-Org/zues-outreach" target="_blank">OliWoods-Org/zues-outreach</a></td><td>zeus-growth-os</td><td>—</td></tr>
         <tr><td><strong>GoodBot</strong></td><td><span class="int-status int-live">Live</span></td><td><a href="https://goodbot-film-studio.netlify.app" target="_blank">goodbot-film-studio.netlify.app</a></td><td><a href="https://goodbot-poc.netlify.app" target="_blank">goodbot-poc.netlify.app</a></td><td><a href="https://github.com/OliWoods-Org/goodbot" target="_blank">OliWoods-Org/goodbot</a></td><td>goodbot-film-studio</td><td><code class="pw-code" onclick="copy('2&Zj*!0XXY6CR%SPxxDcQk6m',this)">••••••••</code></td></tr>
       </tbody>
     </table>
@@ -1527,6 +1555,17 @@ const PRODUCTS = {
     tech: ['Next.js 14','Supabase','Amadeus API','HotelBeds','DTT','Stripe Connect','ElevenLabs','Vercel Edge','TypeScript'],
     moat: [{l:'Direct Booking Model',d:'Bypasses OTAs entirely. Hotels keep margin, guests get better rates. No comparable AI agent exists with this approach.'},{l:'9-Agent Memory System',d:'1,000-point user profile means the AI knows your preferences before you do. Competitors start from scratch every session.'},{l:'Voice Booking',d:'ElevenLabs-powered voice concierge. Book a 5-star suite by talking. First mover in luxury AI voice travel.'},{l:'Dual B2B/B2C',d:'SaaS for hotels + consumer app. Two revenue streams from day one.'}],
     links: [{t:'Production',h:'https://luxurytravels.ai'},{t:'Staging',h:'https://luxetravel.app'},{t:'GitHub',h:'https://github.com/OliWoods-Org/luxurytravels'}]
+  },
+  zeus: {
+    name: 'Zeus Growth OS', sub: 'Mission Control · Unified growth stack', badge: 'Beta', logo: null, logoBg: '#0a1214',
+    hero: 'screenshots/zeus-mission-control.png',
+    creds: [{url:'https://zeus-growth-os.netlify.app',label:'Netlify — Mission Control'}],
+    kpis: [{v:'Listen',l:'→ Publish → Pipeline'},{v:'Airtable',l:'Data plane'},{v:'Claude',l:'Execution plugin'}],
+    summary: 'Zeus Growth OS is a unified growth marketing dashboard that bridges market intelligence and sales execution. It is the central spine for growth teams: social listening, multi-channel publishing, and high-volume outbound pipelines in one high-performance Mission Control surface.\n\nThe stack eliminates tool fatigue by combining listening, ICP targeting, and publishing into one workflow. Social and trend intelligence feeds outbound and brand positioning; optional voice conversion analytics track connect rate, meetings booked, and funnel throughput. Brand and GEO readiness layers sit beside an Airtable-backed operational store (per docs). The open-source execution layer lives in the zues-outreach repo (Claude Code plugin + Zeus Web in apps/zeus-web).',
+    usps: ['Unified growth stack — listen, target, engage, convert, report without switching products','Intelligence-to-action pipeline — mentions and queues inform outbound and positioning','Airtable-first architecture — structured operational store; dashboard is the unified lens','Voice conversion analytics — connect rate, meetings, funnel stages (telemetry wired next)','Brand and GEO readiness — snippets, schema, positioning signals in-product roadmap','Modern dark UX — teal, violet, gold accents; optimized for fast execution'],
+    tech: ['React 18','TypeScript','Vite','Tailwind','React Router','Netlify','Airtable (planned)','GitHub OliWoods-Org/zues-outreach'],
+    moat: [{l:'One spine',d:'Mission Control ties Listen + PPC (TNT lineage) + pipeline + publish queue narrative — competitors sell point tools.'},{l:'Plugin + dashboard',d:'Claude Code plugin for execution; Zeus Web for control plane — same story, two surfaces.'},{l:'Governance-ready',d:'Specs emphasize human approval before auto-post and AI replies — sell AI-assisted, not unsupervised broadcast.'},{l:'Org velocity',d:'Shipped UI + docs + Netlify deploy under OliWoods-Org for repeatable client rollout.'}],
+    links: [{t:'Live site',h:'https://zeus-growth-os.netlify.app'},{t:'GitHub repo',h:'https://github.com/OliWoods-Org/zues-outreach'},{t:'Zeus Web README',h:'https://github.com/OliWoods-Org/zues-outreach/tree/main/apps/zeus-web'}]
   },
   mama: {
     name: 'MAMA', sub: 'Master Autonomous Management Agent — 37 Agents', badge: 'Live', logo: 'logos/mama-brain.png', logoBg: '#0d0d1a',
